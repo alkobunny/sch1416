@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /root/sch1416/scripts
 
-sh /root/sch1416/scripts/feedback.sh
+bash /root/sch1416/scripts/feedback.sh
 sh /root/sch1416/scripts/mod.sh
 sh /root/sch1416/scripts/paidlink.sh
 sh /root/sch1416/scripts/schoollink.sh

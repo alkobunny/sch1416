@@ -4,7 +4,7 @@ DateName=`date +%Y_%m_%d`
 FILE="/root/sch1416/"$DateName"_ezhednevnoe_menyu.csv"
 FILEALT="/root/sch1416/"$DateName"_ezhednevnoe_meniu.csv"
 
-for ((i = 1; i <= 1000; i++)); do
+for ((i=1; i<=1000; i++)); do
 if test -f $FILE
 then
 	echo "FOUND!"
