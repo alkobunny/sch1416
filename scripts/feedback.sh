@@ -1,6 +1,4 @@
 #!/bin/bash
-open -n "https://connect.yandex.ru/forms/admin/5bf59c3ef4dc29026341797b/answers"
-
 DateName=`date +%Y_%m_%d`
 
 FILE="/root/sch1416/"$DateName"_ezhednevnoe_menyu.csv"
