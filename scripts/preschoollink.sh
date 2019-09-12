@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source datearr.sh
+source /root/sch1416/scripts/datearr.sh
 unset array1
 
 array1=( `cat "preschool.txt"` ); 

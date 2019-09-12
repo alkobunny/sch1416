@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /root/sch1416
 index=0
 
 grep -w "Школьное" /root/sch1416/feedback.csv > school.txt

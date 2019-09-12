@@ -1,13 +1,13 @@
 #!/bin/bash
 
 CURDAY=`date +"%A"`;
-Mon=понедельник;
-Tue=вторник;
-Wed=среда;
-Thu=четверг;
-Fri=пятница;
-Sat=суббота;
-Sun=воскресенье;
+Mon=Monday;
+Tue=Tuesday;
+Wed=Wednesday;
+Thu=Thursday;
+Fri=Friday;
+Sat=Saturday;
+Sun=Sunday;
 
 functionMon () {
 TOMMOROW=`TZ=GMT-27 date +%Y-%m-%d`;

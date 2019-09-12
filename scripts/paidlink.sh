@@ -1,5 +1,5 @@
 #!/bin/bash
-source datearr.sh
+source /root/sch1416/scripts/datearr.sh
 unset array1
 text='#!/bin/bash'
 array1=( `cat "paid.txt"` ); 

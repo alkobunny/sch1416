@@ -1,9 +1,9 @@
 #!/bin/bash
 
 source /root/sch1416/scripts/date.sh
-source /root/sch1416/scripts/linkTOMMOROW.txt
-source /root/sch1416/scripts/linkTODAY.txt
-source /root/sch1416/scripts/linkYESTERDAY.txt
+source /root/sch1416/linkTOMMOROW.txt
+source /root/sch1416/linkTODAY.txt
+source /root/sch1416/linkYESTERDAY.txt
 
 
 #Дошкольное
@@ -19,8 +19,8 @@ LINK7=$linkTOMMOROWpaid
 LINK8=$linkTODAYpaid
 LINK9=$linkYESTERDAYpaid
 
-
-cd /root/sch1416;
+mkdir /root/sch1416/menu;
+cd /root/sch1416/menu;
 
 wget -q --no-check-certificate --keep-session-cookies --save-cookies ya_cookies.txt --load-cookies ya_cookies.txt "https://passport.yandex.ru/passport?mode=auth" --referer="https://mail.yandex.ru/" --post-data="login=potashnik@sch1416.ru&passwd=rcEma8do" -O cook.txt; 
 rm cook.txt;
@@ -41,7 +41,7 @@ wget -q --load-cookies ya_cookies.txt "$LINK9" -O paid$YESTERDAY.pdf;
 
 rm ya_cookies.txt
 
-cd /root/sch1416/scripts;
+cd /root/sch1416
 
 rm linkTODAY.txt
 rm linkTOMMOROW.txt
